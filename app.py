@@ -299,7 +299,7 @@ def main():
         show_ejercicios()
 
 def show_inicio():
-    st.markdown('<h2 class="section-header">¡Bienvenida al mundo de la Estadística! 🎉</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="section-header" style="color: black;">¡Bienvenida al mundo de la Estadística! 🎉</h2>', unsafe_allow_html=True)
     
     # Mensaje de bienvenida
     col1, col2, col3 = st.columns([1, 2, 1])
